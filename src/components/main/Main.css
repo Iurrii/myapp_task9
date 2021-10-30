@@ -1,0 +1,47 @@
+.b-main {
+    background-color: rgba(225, 255, 255, 0.8)
+}
+
+.b-main__about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+    padding: 1vh 5vw;
+}
+
+.b-about-me__wrapper-img {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.b-wrapper-img__img {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.b-about-me__description {
+    display: inline-flex;
+    flex-direction: column;
+    align-items:center;
+    width: 60%;
+}
+
+.b-main__skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 450px;
+    height: fit-content;
+    padding: 1vh 5vw;
+    padding-bottom: 5vh;
+}
+
+.b-skills__list-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+

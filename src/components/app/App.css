@@ -1,0 +1,10 @@
+.App {
+    width: 80vw;
+    margin: auto;
+    background-color: rgba(225, 255, 255, 0.5)
+}
+@media (min-width: 1199px) {
+    .App {
+        width: 60vw;
+    }    
+}

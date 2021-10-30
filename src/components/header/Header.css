@@ -1,0 +1,5 @@
+.b-header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(225, 255, 255, 0.8)
+}
